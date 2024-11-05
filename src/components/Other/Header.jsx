@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='flex items-center justify-end'>
+        <div className='flex items-end justify-between'>
             <h1>
                 Hello <br /> Ahmad
             </h1>
