@@ -10,7 +10,7 @@ const AllTask = () => {
     ];
 
     return (
-        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md mt-6 mb-6 max-w-4xl mx-auto space-y-4">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 h-60 rounded-lg shadow-md mt-6 mb-6 max-w-4xl mx-auto space-y-4 overflow-auto">
             {tasks.map((task, index) => (
                 <div key={index} className={`${task.bgColor} text-white py-3 px-5 flex justify-between items-center rounded-lg shadow`}>
                     <h2 className="text-lg font-semibold">{task.name}</h2>
